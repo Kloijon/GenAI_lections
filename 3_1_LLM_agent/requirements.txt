@@ -5,3 +5,4 @@ ddgs
 pytest
 pypdf
 pdfplumber
+watchdog
