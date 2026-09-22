@@ -114,7 +114,7 @@ class DirectoryWatcherTool:
                 observer.join()
 
             report_lines = [
-                f"\n{"ОТЧЁТ ОТСЛЕЖИВАНИЙ"}",
+                f"\n{'ОТЧЁТ ОТСЛЕЖИВАНИЙ'}",
                 f"Директория: {watching_path.resolve()}",
                 f"Всего событий: {sum(events_count.values())}",
                 f"  Создано:        {events_count['Created']}",
